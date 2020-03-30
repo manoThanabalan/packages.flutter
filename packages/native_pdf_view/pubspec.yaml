@@ -15,7 +15,10 @@ dependencies:
       url: git://github.com/manoThanabalan/extended_image
   synchronized: ^2.2.0
   native_pdf_renderer: 
-    path: ../native_pdf_renderer
+    git:
+      url: git://github.com/manoThanabalan/packages.flutter.git
+      ref: master
+      path: packages/native_pdf_renderer
 
 dev_dependencies:
   flutter_test:
